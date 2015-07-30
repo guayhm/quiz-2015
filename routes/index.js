@@ -5,8 +5,11 @@ var quizController = require('../controllers/quiz_controller.js');
 
 /* GET home page. */
 router.get('/', function(req, res) {
-  res.render('index', {title:'Quizz' });
+  res.render('index', { title: 'Quiz' });
 });
+
+// Autoload para rutas con :quizId
+router.param('quizId', quizController.load);
 
 
 // Rutas /quizes
