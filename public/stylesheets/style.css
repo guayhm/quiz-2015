@@ -1,38 +1,14 @@
-* {
-	margin: 0;
-	padding: 0;
-}
+* {margin: 0; padding: 0;}
 
-body {
-  font: 16px Georgia, serif;
-}
+body       {font: 16px Georgia, serif;}
+#page-wrap {margin: 2% auto;color: black;}
+#page-wrap > .main  {border: 1px solid #999;padding: 1%;
+	                 margin-bottom: 1px;color: black;}
 
-#page-wrap {
-	margin: 2% auto;
-	color: black;
-}
+section > div        {padding: 20px;}
 
-#page-wrap > .main {
-	border: 1px solid #999;
-	padding: 1%;
-	margin-bottom: 1px;
-	color: black;
-}
+header, nav, section { background: #eee; text-align: center;}
+footer               { background: #eee; text-align: center;}
+nav span             { margin: 0px 10px 0px 0px;}
 
-section > div {
-	padding: 20px;
-}
-
-header, nav, section {
-	background: #eee;
-	text-align: center;
-}
-
-footer {
-	background: #eee;
-	text-align: center;
-}
-
-nav span {
-	margin: 0px 10px 0px 0px;
-}
+#errorMsgs			{ color: #f61; font-size: smaler;}
